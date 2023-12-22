@@ -55,15 +55,15 @@ subnets = {
 
 ec2 = {
   Dev-server = {
-    server_name = "1"
+    server_name = "DEV_Server"
     subnet = "Dev-subnet"
   }
   Web-server = {
-    server_name = "2"
+    server_name = "WEB_Server"
     subnet = "Web-subnet"
   }
   App-server = {
-    server_name = "3"
+    server_name = "APP_Server"
     subnet = "App-subnet"
   }
 }
